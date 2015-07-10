@@ -41,7 +41,7 @@ print "The result is: {$result}\n";
 ```
 
 | Pro  | Con                                                             |
-|------------------------------------------------------------------------|
+|------|-----------------------------------------------------------------|
 | PSR! | Invocations are long unless 1 `use` statement per class is used |
 |      | All class methods are `static`; they're plain functions         |
 
@@ -72,7 +72,7 @@ print "The result is: {$result}\n";
 ```
 
 | Pro                        | Con                                     |
-|----------------------------------------------------------------------|
+|----------------------------|-----------------------------------------|
 | No `static` methods        | No Composer autoloading                 |
 | This should please purists | Need to include file manually           |
 | Invocation saves 1 byte    | Extra installation/maintenance overhead |
@@ -103,7 +103,7 @@ print "The result is: {$result}\n";
 ```
 
 | Pro                        | Con                                     |
-|----------------------------------------------------------------------|
+|----------------------------|-----------------------------------------|
 | No `static` methods        | No Composer auto-loading                |
 | This should please purists | Need to include file manually           |
 | Cheapest invocation        | Extra installation/maintenance overhead |
